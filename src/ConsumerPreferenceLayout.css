@@ -1,0 +1,179 @@
+.w-15 {
+  width: 15%;
+}
+.w-95 {
+  width: 95%;
+}
+.w-90 {
+  width: 90% !important;
+}
+.w-40{
+  width: 40%;
+}
+
+.slidecontainer {
+  width: 100%;
+  height: 60vh;
+  overflow-y: auto;
+}
+
+.sliderText {
+  font-size: 0.9rem;
+}
+
+.form-control.slider {
+  --webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  background: #c9ccd6;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 5px;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.form-control.slider:focus {
+  --webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  background: #c9ccd6;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 5px;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 21px;
+  height: 21px;
+  background: #1e2652;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.slider::-webkit-slider-thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 51px;
+  height: 51px;
+  background: #1e2652;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.slider::-moz-range-thumb {
+  width: 21px;
+  height: 21px;
+  background: #1e2652;
+  cursor: pointer;
+}
+
+.brand-color {
+  background-color: #65a3ff !important;
+  color: #fff !important;
+}
+
+.price-container .form-floating {
+  width: 100% !important;
+  border-radius: 5px !important;
+}
+
+.price-container .form-floating:hover {
+  outline: none;
+}
+
+.price-container .special-label {
+  position: absolute;
+  z-index: 1;
+  top: -7px;
+  left: 10px !important;
+  display: block;
+  background: white;
+  padding: 0 5px;
+  font-size: 13px;
+  white-space: nowrap;
+  color: #000;
+  font-weight: bold;
+}
+
+.price-container .form-floating:focus {
+  outline: none !important;
+  transition: box-shadow ease 0.25s, border-color ease 0.25s !important;
+  box-shadow: none !important;
+  border: 1px solid #616161 !important;
+}
+
+.price-container .price-input-field {
+  outline: none !important;
+  transition: box-shadow ease 0.25s, border-color ease 0.25s !important;
+  box-shadow: none !important;
+  padding: 0.7rem;
+  border: 1px solid #ced4da !important;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  z-index: 0 !important;
+  font-size: 0.9rem;
+}
+
+.price-container .price-input-field:focus {
+  outline: none !important;
+  transition: box-shadow ease 0.25s, border-color ease 0.25s !important;
+  box-shadow: none !important;
+}
+
+.content-preference-section .card .card-title {
+  font-size: 1rem;
+}
+
+.content-preference-section .card .card-text {
+  font-size: 0.9rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "" !important;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuMi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDIyIEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNDQ4IDI1NmMwIDguMTg4LTMuMTI1IDE2LjM4LTkuMzc1IDIyLjYybC0xNjAgMTYwYy05LjE1NiA5LjE1Ni0yMi45MSAxMS44OS0zNC44OCA2LjkzOEMyMzEuOCA0NDAuNiAyMjQgNDI4LjkgMjI0IDQxNlY5NmMwLTEyLjk0IDcuNzk3LTI0LjYxIDE5Ljc1LTI5LjU2YzExLjk3LTQuOTUzIDI1LjcyLTIuMjE5IDM0Ljg4IDYuOTM4bDE2MCAxNjBDNDQ0LjkgMjM5LjYgNDQ4IDI0Ny44IDQ0OCAyNTZ6Ii8+PHBhdGggY2xhc3M9ImZhLXNlY29uZGFyeSIgZD0iTTIyNCAzMjBIMzJjLTE3LjY3IDAtMzItMTQuMzMtMzItMzJWMjI0YzAtMTcuNjcgMTQuMzMtMzIgMzItMzJoMTkyVjMyMHoiLz48L3N2Zz4=);
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  background-size: 100%;
+  position: relative;
+  top: +4px;
+  margin-right: 8px;
+}
+
+.nav-link.title {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.topRecommendations.active {
+  color: #65a3ff !important;
+  font-size: 1.2rem;
+  font-weight: 600 !important;
+}
+
+.consumerPreference.active {
+  color: #65a3ff !important;
+  font-size: 1.2rem;
+  font-weight: 600 !important;
+}
+
+.nav-link {
+  color: #000 !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 36px !important;
+  color: #007bff !important;
+}
+.recommendations-content{
+  font-size: .9rem;
+  color: rgb(69, 68, 68);
+}
